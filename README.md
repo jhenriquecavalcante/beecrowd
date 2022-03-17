@@ -1,2 +1,2 @@
 # Exercícios URI/Beecrowd
-Soluções em Python para exercícios da plataforma URI/Beecrowd.
+Soluções para exercícios da plataforma URI/Beecrowd.
