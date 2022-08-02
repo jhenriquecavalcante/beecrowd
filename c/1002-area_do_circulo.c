@@ -1,12 +1,14 @@
 #include <stdio.h>
 
+#define PI 3.14159
+
 int main(){
 
-  double a, r, pi = 3.14159;
+  double a, r;
 
   scanf("%lf", &r);
 
-  a = pi * (r*r);
+  a = PI * (r*r);
 
   printf("A=%.4lf\n", a);
 
