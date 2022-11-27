@@ -6,6 +6,5 @@ fun main(args: Array<String>) {
   val C = readLine()!!.toInt()
   val D = readLine()!!.toInt()
   val DIFERENCA = A*B-C*D
-
   println("DIFERENCA = $DIFERENCA")
 }

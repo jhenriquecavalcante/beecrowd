@@ -1,11 +1,9 @@
 import java.util.*
 
 fun main(args: Array<String>) {
-
   val (N1,N2,N3,N4) = readLine()!!.split(" ").map{ it.toFloat() }
   val MEDIA = ((N1*2)+(N2*3)+(N3*4)+N4)/10
   val MEDIAF = "%.1f".format(MEDIA)
-
   if (MEDIA >= 7) {
     println("Media: $MEDIAF")
     println("Aluno aprovado.")
@@ -27,5 +25,4 @@ fun main(args: Array<String>) {
     }
     println("Media final: $NOVA_MEDIAF")
   }
-	
 }
